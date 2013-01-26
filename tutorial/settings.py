@@ -1,4 +1,4 @@
-# Django settings for django_tutorial project.
+# Django settings for tutorial project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -100,7 +100,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'django_tutorial.urls'
+ROOT_URLCONF = 'tutorial.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
