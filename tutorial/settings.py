@@ -4,7 +4,7 @@ PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 
 # Django settings for tutorial project.
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
