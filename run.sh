@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd $(dirname $0)
+cd $(dirname $0)/tutorial
 
-python tutorial/manage.py runserver
+python manage.py runserver
