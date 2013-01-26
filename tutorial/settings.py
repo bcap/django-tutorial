@@ -1,3 +1,7 @@
+import os
+
+PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
+
 # Django settings for tutorial project.
 
 DEBUG = True
@@ -12,7 +16,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': './database.sqlite3',                      # Or path to database file if using sqlite3.
+        'NAME': '{}/database.sqlite3'.format(PROJECT_PATH),                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
