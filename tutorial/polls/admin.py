@@ -5,7 +5,7 @@ from django.contrib import admin
 class PollAdmin(admin.ModelAdmin):
     fieldsets = [
         (None,               {'fields': ['question']}),
-        ('Date information', {'fields': ['pub_date']}),
+        ('Date information', {'fields': ['pub_date'], 'classes': ['collapse']}),
     ]
 
 
