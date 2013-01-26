@@ -2,4 +2,4 @@
 
 cd $(dirname $0)/tutorial
 
-python manage.py runserver
+python manage.py runserver --insecure
